@@ -7,6 +7,8 @@ import CreateUser from "./CreateUser";
 import "./App.css";
 
 function App() {
+  return <h1>Hello World!</h1>;
+  /*
   return (
     <Router>
       <div className="app">
@@ -34,6 +36,7 @@ function App() {
       </div>
     </Router>
   );
+  */
 }
 
 export default App;
