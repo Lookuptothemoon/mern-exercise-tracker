@@ -1,0 +1,12 @@
+.editexercise {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.editexercise-prev {
+	background-color: lightgray;
+	border-radius: 5px;
+	width: 270px;
+	padding: 10px;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+a {
+	text-decoration: none;
+}
+button:hover {
+	cursor: pointer;
+}
+
+.App {
+  background-color: white;
+}
+.submit-button {
+	border: none;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	outline: none;
+	height: 50px;
+	width: 150px;
+	margin: 0 auto;
+}

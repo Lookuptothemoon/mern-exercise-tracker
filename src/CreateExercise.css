@@ -1,0 +1,41 @@
+.createexercise {
+	background-color: lightyellow;
+	min-height: 100vh;
+}
+.createexercise-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+h1 {
+	margin-bottom: 10px;
+}
+form {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
+}
+.createexercise-form-option {
+	display: flex;
+	margin-bottom: 30px;
+}
+.createexercise-form-option label {
+	width: 100px;
+}
+.createexercise-form-option input, .createexercise-form-option textarea {
+	background: none;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	width: 150px;
+}
+.createexercise-form-submit {
+	text-align: center;
+}
+textarea {
+	resize: vertical;
+}

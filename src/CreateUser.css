@@ -1,0 +1,37 @@
+.createuser {
+	background-color: lightyellow;
+	min-height: 100vh;
+}
+.createuser-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+h1 {
+	margin-bottom: 10px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
+}
+.createuser-form-option {
+	display: flex;
+	margin-bottom: 30px;
+}
+.createuser-form-option label {
+	width: 100px;
+}
+.createuser-form-option input {
+	background: none;
+	border: none;
+	border-bottom: 2px solid black;
+	outline: none;
+	width: 150px;
+}
+.createuser-form-submit {
+	text-align: center;
+}
