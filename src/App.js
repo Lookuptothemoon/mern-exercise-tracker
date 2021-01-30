@@ -8,8 +8,6 @@ import "./App.css";
 
 function App() {
   return (
-    <h1>My React App</h1>
-    /*
     <Router>
       <div className="app">
         <Switch>
@@ -35,7 +33,6 @@ function App() {
         </Switch>
       </div>
     </Router>
-    */
   );
 }
 
