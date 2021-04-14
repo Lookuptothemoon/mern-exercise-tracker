@@ -7,7 +7,7 @@ import "./ExerciseList.css";
 function ExerciseList() {
   const [exercises, setExercises] = useState([]);
 
-  /* get list of created exercises from DB */
+  /* get list of all exercises from DB */
   useEffect(() => {
     const fetchExercises = async () => {
       await axios
@@ -27,7 +27,16 @@ function ExerciseList() {
       <h1>All Exercises</h1>
       <ul>
         {exercises.map(function (exercise) {
-          return <Exercise key={exercise._id} data={exercise} />;
+          return (
+            <Exercise
+              key={exercise._id}
+              id={exercise._id}
+              duration={exercise.duration}
+              date={exercise.date}
+              description={exercise.description}
+              userId={exercise.userId}
+            />
+          );
         })}
       </ul>
     </div>

@@ -9,6 +9,34 @@
 }
 .navbar-desktop-nav {
 }
+.navbar-desktop-nav-submenu {
+	position: relative;
+}
+.navbar-desktop-nav-submenu-container {
+	display: none;
+	
+	a {
+		padding: 5px;
+	}
+}
+.navbar-desktop-nav-submenu:hover {
+	.navbar-desktop-nav-submenu-container {
+		background-color: white;
+		box-shadow: lightgray 2px 2px 2px;
+		position: absolute;
+		top: 25px;
+		left: -20px;
+		display: flex;
+		flex-direction: column;
+		width: 100px;
+	}
+	a {
+
+	}
+	a:hover {
+		background-color: lightgray;
+	}
+}
 .navbar-mobile-nav {
 	display: flex;
 	justify-content: center;
